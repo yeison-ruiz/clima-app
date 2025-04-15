@@ -1,0 +1,15 @@
+.form,
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.form input[type="text"] {
+    padding: 1rem;
+    background-color: transparent;
+    border: .2rem solid #fff;
+    border-radius: 1rem;
+    color: var(--white)
+}

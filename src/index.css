@@ -1,0 +1,20 @@
+::root{
+  --white: #ffffff;
+  --primary: #f59e0b
+}
+
+ html {
+  font-size: 62.5%;
+ }
+
+body {
+  padding: 40px 10px 10px 10px;
+  font-family: "Raleway", sans-serif;
+  background-image: url('/fondo.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  color: var(--white);
+  font-size: 2rem;
+}
